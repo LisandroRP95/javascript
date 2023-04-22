@@ -30,12 +30,20 @@
     
     Bien hecho */
 
+/*    let respuesta = prompt("esta lloviendo?");
+
+    if(respuesta === "si"){
+        alert("SALE GAMING");
+    }else{
+        alert("SALGO a MERENDAR");
+    }*/
+    
     let numeroLoco = parseInt(prompt("Ingrese un número: "));
 
     if(numeroLoco < 10){
         alert("El número todavia no corresponde al grupo especial");
     }else if(numeroLoco < 50){
-        alert("el numero es del grupo selecto")}
-    
-    else(numeroLoco > 50)
-    alert("el numero se paso del grupo selecto");
+        alert("el numero es del grupo selecto");
+    }else{
+        alert("el numero se paso del grupo selecto");
+    }
